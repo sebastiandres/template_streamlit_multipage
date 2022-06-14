@@ -16,6 +16,7 @@ st.title("Login")
 st.markdown("This is an optional page. You can remove this page from streamlit_app.py, and the app will still work.")
 st.markdown("You can access this page by appending ?view=admin to the URL.")
 
+st.markdown("Use the following credentials to login: admin / 4321")
 
 st.markdown("Please login")
 c1, c2, c3 = st.columns([2,2,1])
