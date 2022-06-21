@@ -5,7 +5,12 @@ import pandas as pd
 
 st.title("My Public Page")
 
-st.markdown("This is where you put your public content.")
+st.markdown("This is where you put your public content. This file is 'public/my_public_page.py'.")
+
+st.markdown("""
+* Copy and rename as many files as needed.
+* Edit streamlit_app.py to include the files as pages!
+""")
 
 st.subheader("Maybe some data")
 N = 10

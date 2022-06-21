@@ -57,3 +57,6 @@ else:
                     "nav-link-selected": {"background-color": "#87CEEB"},
                 }
                 )        
+
+# Add floating button
+stb.floating_button("https://sebastiandres.typeform.com/to/tlqGY1T9", "chat-left-dots-fill", "white", "red")
