@@ -22,12 +22,12 @@ else:
                 menu_title="Admin",
                 menu_icon="public",
                 options=[
-                    "My Private View",   
+                    "My Private Home",   
                     "A Private Page", 
                     "Logout", 
                     ], 
                 paths=[
-                    "private/landing.py", 
+                    "private/home.py", 
                     "private/my_private_page.py", 
                     "private/logout.py", 
                     ],
@@ -42,12 +42,12 @@ else:
                 menu_title="Public View",
                 menu_icon="private",
                 options=[
-                    "My Public Landing",   
+                    "Home",   
                     "Some Interesting Page", 
                     "Login", 
                     ], 
                 paths=[
-                    "public/landing.py", 
+                    "public/home.py", 
                     "public/my_public_page.py", 
                     "public/login.py", 
                     ],
