@@ -13,8 +13,8 @@ else:
 # Check if query param
 query_params = st.experimental_get_query_params()
 if "view" in query_params:
-    if query_params["view"] == "admin":
-        stb.render_file("/public/login.py")
+    if query_params["view"][0] == "admin":
+        stb.render_file("public/login.py")
 else:
     # Set private and public views
     if admin_view:

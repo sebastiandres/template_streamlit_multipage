@@ -14,9 +14,10 @@ def on_click():
 st.title("Login")
 
 st.markdown("This is an optional page. You can remove this page from streamlit_app.py, and the app will still work.")
-st.markdown("You can access this page by appending ?view=admin to the URL.")
+st.markdown("You can also access this page by appending ?view=admin to the URL.")
 
-st.markdown("Use the following credentials to login: admin / 4321")
+st.markdown("Right now, it uses the following credentials to login: **admin** / **4321**")
+st.markdown("You should set up the variables USER and PASSWORD on .streamlit/secrets.toml and/or the app properties (as suggested on https://docs.streamlit.io/streamlit-cloud/get-started/deploy-an-app/connect-to-data-sources/secrets-management)")
 
 st.markdown("Please login")
 c1, c2, c3 = st.columns([2,2,1])

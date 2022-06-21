@@ -1,4 +1,5 @@
 streamlit
-streamlit_book
+#streamlit_book
+git+https://github.com/sebastiandres/streamlit_book.git
 pandas
 numpy
