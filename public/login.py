@@ -38,7 +38,7 @@ st.markdown("---")
 st.markdown("This is an optional page. You can remove this page from streamlit_app.py, and the app will still work.")
 st.markdown("You can also access this page by appending '?view=admin' to the [URL](https://stbook-template.streamlitapp.com/?view=admin)")
 
-st.markdown("Use the following EXTREAMLY WEAK credentials to login: **admin** / **4321**")
+st.markdown("Use the following EXTREMELY WEAK credentials to login: **admin** / **4321**")
 st.markdown("""You should set up variables USER and PASSWORD on .streamlit/secrets.toml 
 and/or the app properties (as suggested on 
 [streamlit's secrets](https://docs.streamlit.io/streamlit-cloud/get-started/deploy-an-app/connect-to-data-sources/secrets-management)
